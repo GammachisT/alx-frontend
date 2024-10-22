@@ -519,14 +519,14 @@ ul.row {
 .col-1-3 {
     width: 33.33%;       /* Set width to 33.33% of its parent */
     float: left;         /* Float it to the left */
-    padding: 0.5; /* Set padding to half of the root element */
+    padding: 0.5rem; /* Set padding to half of the root element */
 }
 
 /* For the col-1-2 class */
 .col-1-2 {
     width: 50%;          /* Set width to 50% of its parent */
     float: left;         /* Float it to the left */
-    padding: 0.5; /* Set padding to half of the root element */
+    padding: 0.5rem; /* Set padding to half of the root element */
 }
 
 /* For the footer-copyright class */
