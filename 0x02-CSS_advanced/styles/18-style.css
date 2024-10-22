@@ -434,7 +434,7 @@ a:active {
 /* For the nav-link class in nav class */
 .nav .nav-link {
     display: block;                                   /* Set display to block */
-    padding: calc(0.5 * 1rem) var(--font-size-medium); /* Set padding */
+    padding: 0.5rem 1rem; /* Set padding */
 }
 
 /* While hovering over the nav-link class */
