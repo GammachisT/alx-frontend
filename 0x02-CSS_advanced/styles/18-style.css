@@ -414,7 +414,7 @@ a:active {
 }
 
 /* For the nav class */
-nav {
+.nav {
     margin: 0;                         /* Set margin on all sides to 0 */
     padding: 0;                        /* Set padding on all sides to 0 */
     list-style: none;                  /* Remove default list styling */
@@ -422,7 +422,7 @@ nav {
 }
 
 /* For the nav-item class in nav class */
-nav .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);          /* Set font family */
     font-weight: var(--nav-item-font-weight);          /* Set font weight */
     font-size: var(--nav-item-font-size);              /* Set font size */
@@ -432,13 +432,13 @@ nav .nav-item {
 }
 
 /* For the nav-link class in nav class */
-nav .nav-link {
+.nav .nav-link {
     display: block;                                   /* Set display to block */
     padding: calc(0.5 * 1rem) var(--font-size-medium); /* Set padding */
 }
 
 /* While hovering over the nav-link class */
-nav .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover); /* Set foreground color on hover */
 }
 
