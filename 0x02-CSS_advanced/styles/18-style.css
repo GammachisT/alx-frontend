@@ -540,8 +540,8 @@ a:active {
   --nav-item-font-family: var(--font-family-title);        /* Font family for nav items */
   --nav-item-font-weight: var(--font-weight-bold);         /* Font weight for nav items */
   --nav-item-font-size: var(--font-size-medium);           /* Font size for nav items */
-  --nav-item-letter-spacing: 4%;                            /* Letter spacing for nav items */
+  --nav-item-letter-spacing: 0.04rem;                            /* Letter spacing for nav items */
   --nav-item-display: inline-block;                          /* Display type for nav items */
-  --nav-item-margin: calc(3 * 1rem) 0;                     /* Margin for nav items */
+  --nav-item-margin: 0 0 3rem 0;                     /* Margin for nav items */
   --nav-item-link-hover: var(--color-primary);              /* Hover color for nav links */
 }
