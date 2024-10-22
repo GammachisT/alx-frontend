@@ -509,7 +509,7 @@ a:active {
 }
 
 /* For all ul elements with the class row */
-.row {
+ul.row {
     margin: 0;           /* Set margins all around to 0 */
     padding: 0;          /* No padding all around */
     list-style: none;    /* No default styles for the list */
@@ -519,14 +519,14 @@ a:active {
 .col-1-3 {
     width: 33.33%;       /* Set width to 33.33% of its parent */
     float: left;         /* Float it to the left */
-    padding: calc(0.5 * 1rem); /* Set padding to half of the root element */
+    padding: 0.5; /* Set padding to half of the root element */
 }
 
 /* For the col-1-2 class */
 .col-1-2 {
     width: 50%;          /* Set width to 50% of its parent */
     float: left;         /* Float it to the left */
-    padding: calc(0.5 * 1rem); /* Set padding to half of the root element */
+    padding: 0.5; /* Set padding to half of the root element */
 }
 
 /* For the footer-copyright class */
@@ -537,7 +537,7 @@ a:active {
 }
 
 /* For all ul tags in the footer class */
-footer ul {
+.footer ul {
     text-align: right; /* Align the text to the right */
 }
 
