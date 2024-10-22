@@ -452,6 +452,32 @@ a:active {
 	color: #D73953;
 }
 
+/* Targeting the section class */
+.section {
+    padding: var(--section-padding); /* Set padding on all 4 sides */
+}
+
+/* Targeting the section-header class */
+.section-header {
+    padding: var(--section-header-padding); /* Set padding on all 4 sides */
+}
+
+/* Targeting the section-body class */
+.section-body {
+    padding: var(--section-body-padding); /* Set padding on all 4 sides */
+}
+
+/* Targeting the section-footer class */
+.section-footer {
+    padding: var(--section-footer-padding); /* Set padding on all 4 sides */
+    text-align: var(--section-footer-align); /* Set horizontal alignment */
+}
+
+/* Targeting the footer class at the end of the style file */
+.footer {
+    padding: var(--footer-padding); /* Set padding on all 4 sides */
+}
+
 /* Set horizontal alignment for the section-header class */
 .section-header {
     text-align: var(--section-header-align);
